@@ -1,4 +1,4 @@
-package com.wenkesj.voice
+package com.akshaymahajan.voice
 
 import com.facebook.react.bridge.Callback
 import com.facebook.react.bridge.ReactApplicationContext
@@ -58,6 +58,6 @@ class VoiceModule internal constructor(context: ReactApplicationContext) :
   }
 
   companion object {
-    const val NAME = "Voice"
+    const val NAME = "AkshayVoice"
   }
 }

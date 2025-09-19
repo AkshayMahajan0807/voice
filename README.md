@@ -73,7 +73,7 @@ import android.app.Application;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactPackage;
 ...
-import com.wenkesj.voice.VoicePackage; // <------ Add this!
+import com.akshaymahajan.voice.VoicePackage; // <------ Add this!
 ...
 
 public class MainActivity extends Activity implements ReactApplication {

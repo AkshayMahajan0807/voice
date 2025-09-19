@@ -1,4 +1,4 @@
-package com.wenkesj.voice
+package com.akshaymahajan.voice
 
 import com.facebook.react.TurboReactPackage
 import com.facebook.react.bridge.ReactApplicationContext

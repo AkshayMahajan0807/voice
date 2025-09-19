@@ -21,4 +21,4 @@ export interface Spec extends TurboModule {
   destroyTranscription: (callback: (error: string) => void) => void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('Voice');
+export default TurboModuleRegistry.getEnforcing<Spec>('AkshayVoice');

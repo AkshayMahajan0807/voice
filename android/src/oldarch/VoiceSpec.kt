@@ -1,4 +1,4 @@
-package com.wenkesj.voice
+package com.akshaymahajan.voice
 
 import com.facebook.react.bridge.Callback
 import com.facebook.react.bridge.Promise

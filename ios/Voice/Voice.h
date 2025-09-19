@@ -4,11 +4,11 @@
 #import "RNVoiceSpec.h"
 
 
-@interface Voice : RCTEventEmitter <NativeVoiceIOSSpec>
+@interface AkshayVoice : RCTEventEmitter <NativeVoiceIOSSpec>
 #else
 #import <React/RCTBridgeModule.h>
 
-@interface Voice : RCTEventEmitter <RCTBridgeModule>
+@interface AkshayVoice : RCTEventEmitter <RCTBridgeModule>
 #endif
 
 @end

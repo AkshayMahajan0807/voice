@@ -1,30 +1,10 @@
 {
-  "name": "@react-native-voice/voice",
-  "description": "React Native Native Voice library for iOS and Android",
-  "version": "3.2.4",
-  "author": "Sam Wenke <samwenke@gmail.com>",
+  "name": "@akshaymahajan/voice-recognition",
+  "description": "Custom React Native Voice Recognition library for iOS and Android",
+  "version": "3.2.5",
+  "author": "Akshay Mahajan <your.email@example.com>",
   "private": false,
-  "homepage": "https://github.com/react-native-voice/voice",
-  "devDependencies": {
-    "@react-native-community/eslint-config": "^3.2.0",
-    "@semantic-release/git": "^10.0.1",
-    "@types/invariant": "^2.2.37",
-    "eslint": "9.20.1",
-    "expo-module-scripts": "^4.0.5",
-    "lint-staged": "^15.2.10",
-    "react": "18.3.1",
-    "react-native": "^0.76.2",
-    "semantic-release": "^24.2.0",
-    "typescript": "5.6.3"
-  },
-  "keywords": [
-    "android",
-    "ios",
-    "react-native",
-    "speech",
-    "voice"
-  ],
-  "license": "MIT",
+  "homepage": "https://github.com/AkshayMahajan0807/voice",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,24 +12,6 @@
     "expo": ">=48.0.0",
     "react-native": ">=0.71.0"
   },
-  "peerDependenciesMeta": {
-    "expo": {
-      "optional": true
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/react-native-voice/voice.git"
-  },
-  "files": [
-    "src",
-    "dist",
-    "android",
-    "ios",
-    "react-native-voice.podspec",
-    "app.plugin.js",
-    "plugin"
-  ],
   "scripts": {
     "lint": "eslint src/*",
     "semantic-release": "semantic-release",
@@ -58,16 +20,44 @@
     "android": "yarn --cwd example android",
     "prepare": "yarn build && yarn build:plugin",
     "build": "tsc",
-    "dev-sync": "cp -r ./dist example/node_modules/@react-native-voice/voice",
+    "dev-sync": "cp -r ./dist example/node_modules/@akshaymahajan/voice-recognition",
     "type-check": "tsc -noEmit",
     "build:plugin": "tsc --build plugin",
     "lint:plugin": "eslint plugin/src/*"
   },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AkshayMahajan0807/voice.git"
+  },
+  "files": [
+    "src",
+    "dist",
+    "android",
+    "ios",
+    "akshay-voice-recognition.podspec",
+    "app.plugin.js",
+    "plugin"
+  ],
+  "keywords": [
+    "android",
+    "ios",
+    "react-native",
+    "speech",
+    "voice",
+    "recognition",
+    "akshay"
+  ],
+  "license": "MIT",
   "dependencies": {
     "invariant": "^2.2.4"
   },
   "codegenConfig": {
-    "name": "RNVoiceSpec",
+    "name": "AkshayVoiceSpec",
     "type": "all",
     "jsSrcsDir": "src",
     "outputDir": {
@@ -75,7 +65,13 @@
       "android": "android/generated"
     },
     "android": {
-      "javaPackageName": "com.wenkesj.voice"
+      "javaPackageName": "com.akshaymahajan.voice"
     }
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.9.2",
+    "@types/jest": "^29.5.12"
   }
 }

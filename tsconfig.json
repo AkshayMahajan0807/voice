@@ -1,5 +1,4 @@
 {
-  "extends": "expo-module-scripts/tsconfig.base",
   "compilerOptions": {
     "declaration": true /* Generates corresponding '.d.ts' file. */,
     "declarationMap": true /* Generates a sourcemap for each corresponding '.d.ts' file. */,
@@ -21,8 +20,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "lib": ["esnext", "dom"]
   },
   "include": ["src/**/*"]
 }

@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.wenkesj.voice"
+    namespace "com.akshaymahajan.voice"
 
     sourceSets {
       main {
@@ -120,7 +120,7 @@ dependencies {
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
-    libraryName = "Voice"
-    codegenJavaPackageName = "com.wenkesj.voice"
+    libraryName = "AkshayVoice"
+    codegenJavaPackageName = "com.akshaymahajan.voice"
   }
 }
