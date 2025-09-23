@@ -59,6 +59,8 @@ class RCTVoice {
 
   constructor() {
     this._loaded = false;
+    console.log("voice",Voice);
+    
     this._listeners = JSON.parse(JSON.stringify([]));
     this._events = {
       onSpeechStart: () => {},
