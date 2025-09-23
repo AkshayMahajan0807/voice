@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-voice/voice": "file:../",
+    "@akshaymahajan/voice-recognition": "git+https://github.com/AkshayMahajan0807/voice.git",
     "react": "18.3.1",
     "react-native": "0.76.2"
   },
