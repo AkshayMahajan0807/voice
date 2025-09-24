@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		DC0729B51EF78E41004EBC83 /* libVoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVoice.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0729B81EF78E41004EBC83 /* Voice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
-		DC0729B91EF78E41004EBC83 /* Voice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Voice.m; sourceTree = "<group>"; };
+		DC0729B91EF78E41004EBC83 /* Voice.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Voice.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0729BA1EF78E41004EBC83 /* Voice.m in Sources */,
+				DC0729BA1EF78E41004EBC83 /* AkshayVoice.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,4 +269,6 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = DC0729AD1EF78E41004EBC83 /* Project object */;
+}
+;
 }

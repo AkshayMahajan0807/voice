@@ -1,11 +1,11 @@
-#import "Voice.h"
+#import "AkshayVoice.h"
 #import <Accelerate/Accelerate.h>
 #import <React/RCTLog.h>
 #import <React/RCTUtils.h>
 #import <Speech/Speech.h>
 #import <UIKit/UIKit.h>
 
-@interface Voice () <SFSpeechRecognizerDelegate>
+@interface AkshayVoice () <SFSpeechRecognizerDelegate>
 
 @property(nonatomic) SFSpeechRecognizer *speechRecognizer;
 @property(nonatomic) SFSpeechURLRecognitionRequest *recognitionUrlRequest;
