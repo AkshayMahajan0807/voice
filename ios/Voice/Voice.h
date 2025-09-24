@@ -1,7 +1,7 @@
 
 #import <React/RCTEventEmitter.h>
 #ifdef RCT_NEW_ARCH_ENABLED
-#import "com.akshaymahajan.voice"
+#import "AkshayVoiceSpec.h"
 
 
 @interface AkshayVoice : RCTEventEmitter <NativeVoiceIOSSpec>
